@@ -13,7 +13,7 @@ Add the following line to the `.stylelintrc` file in the project root folder.
 
 ```
 {
-  "extends": "@joinbox/joinbox"
+  "extends": "@joinbox/stylelint-config-joinbox"
 }
 ```
 
