@@ -1,0 +1,30 @@
+{
+  "name": "@joinbox/stylelint-config-joinbox",
+  "version": "1.0.0",
+  "description": "Joinbox Ltd. stylelint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylelint",
+    "linter",
+    "joinbox",
+    "codingguidelines"
+  ],
+  "author": "Tobias Kneubuehler",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-stylelint": "^9.0.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-order": "^3.0.0",
+    "stylelint-scss": "^3.6.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joinbox/stylelint-config-joinbox.git"
+  }
+}
