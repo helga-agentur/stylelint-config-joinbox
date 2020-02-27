@@ -12,6 +12,8 @@ module.exports = {
             'always',
             {
                 ignoreAtRules: [ 'else', 'extend', 'include' ],
+                except: ['blockless-after-same-name-blockless'],
+                ignore: ['after-comment']
             },
         ],
         'block-opening-brace-space-before': 'always',
@@ -28,21 +30,22 @@ module.exports = {
         'at-rule-no-unknown': null,
         'scss/at-rule-no-unknown': true,
         'rule-empty-line-before': [
-            'always', 
+            'always',
             {
                 except: [ 'after-single-line-comment' ],
                 ignore: [ 'first-nested' ],
             },
         ],
+        'selector-pseudo-element-colon-notation': 'double',
         'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
         'scss/at-else-closing-brace-space-after': 'always-intermediate',
         'scss/at-else-empty-line-before': 'never',
         'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
         'scss/at-if-closing-brace-space-after': 'always-intermediate',
         'block-no-empty': null,
-        'unit-whitelist': [ 'em', 'rem', 'px', 'ms', 's', '%', 'grad', 'deg', 'rad', 'turn' ],
+        'unit-whitelist': [ 'em', 'rem', 'px', 'vw', 'vh', 'fr', 'ms', 's', '%', 'grad', 'deg', 'rad', 'turn' ],
         indentation: [
-            2,
+            4,
             {
                 indentClosingBrace: false,
                 ignore: [ 'inside-parens' ],
@@ -52,11 +55,12 @@ module.exports = {
         'color-hex-case': 'lower',
         'order/properties-order': [],
         'plugin/rational-order': [
-            true, 
+            true,
             {
                 'border-in-box-model': false,
-                'empty-line-between-groups': true,
+                'empty-line-between-groups': false,
             },
         ],
+        'no-descending-specificity': true,
     },
 };
