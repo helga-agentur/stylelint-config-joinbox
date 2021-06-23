@@ -61,5 +61,6 @@ module.exports = {
                 'empty-line-between-groups': false,
             },
         ],
+        'no-descending-specificity': null,
     },
 };
