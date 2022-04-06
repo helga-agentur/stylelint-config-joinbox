@@ -12,7 +12,7 @@ module.exports = {
             'always',
             {
                 ignoreAtRules: [ 'else', 'extend', 'include' ],
-                except: ['blockless-after-same-name-blockless'],
+                except: ['first-nested', 'blockless-after-same-name-blockless'],
                 ignore: ['after-comment']
             },
         ],
