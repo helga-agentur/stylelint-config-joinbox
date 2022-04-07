@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp-stylelint": "^9.0.0",
-    "stylelint": "^10.0.1",
+    "stylelint": "^14.6.0",
     "stylelint-config-recommended-scss": "^3.3.0",
     "stylelint-order": "^3.0.0",
     "stylelint-scss": "^3.6.0",
