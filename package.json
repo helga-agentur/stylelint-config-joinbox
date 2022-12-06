@@ -15,10 +15,9 @@
   "author": "Tobias Kneubuehler",
   "license": "MIT",
   "dependencies": {
-    "gulp-stylelint": "^9.0.0",
     "postcss-scss": "^4.0.6",
     "stylelint": "^14.6.0",
-    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
     "stylelint-order": "^3.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-selector-bem-pattern": "^2.1.0"
