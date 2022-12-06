@@ -43,7 +43,6 @@ module.exports = {
         'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
         'scss/at-if-closing-brace-space-after': 'always-intermediate',
         'block-no-empty': null,
-        'unit-whitelist': [ 'em', 'rem', 'px', 'vw', 'vh', 'fr', 'ms', 's', '%', 'grad', 'deg', 'rad', 'turn' ],
         indentation: [
             4,
             {
