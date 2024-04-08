@@ -9,6 +9,7 @@ module.exports = {
         'stylelint-order',
         'stylelint-config-rational-order/plugin',
         'stylelint-selector-bem-pattern',
+        '@stylistic/stylelint-plugin',
     ],
     overrides: [
         {

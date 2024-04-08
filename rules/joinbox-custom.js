@@ -13,16 +13,16 @@ module.exports = {
             {
                 ignoreAtRules: [ 'else', 'extend', 'include' ],
                 except: ['first-nested', 'blockless-after-same-name-blockless'],
-                ignore: ['after-comment']
+                ignore: ['after-comment'],
             },
         ],
-        'block-opening-brace-space-before': 'always',
-        'block-closing-brace-newline-after': [
+        '@stylistic/block-opening-brace-space-before': 'always',
+        '@stylistic/block-closing-brace-newline-after': [
             'always', {
                 ignoreAtRules: [ 'if', 'else' ],
             },
         ],
-        'at-rule-name-space-after': [
+        '@stylistic/at-rule-name-space-after': [
             'always', {
                 ignoreAtRules: [ 'include', 'extend' ],
             },
@@ -43,7 +43,7 @@ module.exports = {
         'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
         'scss/at-if-closing-brace-space-after': 'always-intermediate',
         'block-no-empty': null,
-        indentation: [
+        '@stylistic/indentation': [
             4,
             {
                 indentClosingBrace: false,
@@ -51,7 +51,7 @@ module.exports = {
             },
         ],
         'color-no-invalid-hex': true,
-        'color-hex-case': 'lower',
+        '@stylistic/color-hex-case': 'lower',
         'order/properties-order': [],
         'plugin/rational-order': [
             true,
