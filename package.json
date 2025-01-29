@@ -1,7 +1,7 @@
 {
-  "name": "@joinbox/stylelint-config-joinbox",
+  "name": "@helga-agency/stylelint-config-joinbox",
   "version": "1.3.4",
-  "description": "Joinbox Ltd. stylelint configuration",
+  "description": "Helga Agency stylelint configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "stylelint",
     "linter",
-    "joinbox",
+    "helga agency",
     "codingguidelines"
   ],
   "author": "Tobias Kneubuehler",
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:joinbox/stylelint-config-joinbox.git"
+    "url": "git@github.com:helga-agentur/stylelint-config-joinbox.git"
   }
 }
