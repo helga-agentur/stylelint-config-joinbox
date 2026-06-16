@@ -6,8 +6,8 @@ module.exports = {
         './rules/joinbox-custom',
     ],
     plugins: [
+        '@stylistic/stylelint-plugin',
         'stylelint-order',
-        'stylelint-config-rational-order/plugin',
         'stylelint-selector-bem-pattern',
     ],
     overrides: [

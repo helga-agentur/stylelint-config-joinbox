@@ -15,12 +15,12 @@
   "author": "Tobias Kneubuehler",
   "license": "MIT",
   "dependencies": {
-    "postcss-scss": "^4.0.6",
-    "stylelint": "^14.6.0",
-    "stylelint-config-recommended-scss": "^8.0.0",
-    "stylelint-order": "^3.0.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-selector-bem-pattern": "^2.1.0"
+    "@stylistic/stylelint-plugin": "^5.2.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^17.13.0",
+    "stylelint-config-recommended-scss": "^17.0.1",
+    "stylelint-order": "^8.1.1",
+    "stylelint-selector-bem-pattern": "^5.0.0"
   },
   "repository": {
     "type": "git",
