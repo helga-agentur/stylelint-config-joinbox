@@ -1,4 +1,98 @@
-#test {
-    heigt: 100;
+// =============================================================================
+// Test fixture: each block breaks the rule(s) named above it
+// =============================================================================
+
+// property-no-unknown — typo'd property
+.A {
+    heigt: 100px;
 }
-#test2 { a: 'b' }
+
+// color-no-invalid-hex + @stylistic/color-hex-case — bad hex, uppercase hex
+.B {
+    color: #FFF;
+    border-color: #12g456;
+}
+
+// @stylistic/indentation — 2 spaces, want 4
+.D {
+  color: red;
+}
+
+// @stylistic/block-opening-brace-space-before — missing space before {
+.E{
+    color: red;
+}
+
+// @stylistic/block-closing-brace-newline-after — two rules on one line
+.F { color: red; } .G { color: blue; }
+
+// rule-empty-line-before — no blank line between rules
+.H {
+    color: red;
+}
+.I {
+    color: red;
+}
+
+// selector-pseudo-element-colon-notation — want double colon
+.J:before {
+    content: '';
+}
+
+// @stylistic/at-rule-name-space-after — missing space after @media
+@media(min-width: 100px) {
+    .K {
+        color: red;
+    }
+}
+
+// scss/at-rule-no-unknown — unknown at-rule
+.L {
+    @foo (1);
+}
+
+// scss/at-if-closing-brace-* + scss/at-else-empty-line-before — blank line splits the chain
+.N {
+    @if true {
+        color: red;
+    }
+
+    @else {
+        color: blue;
+    }
+}
+
+// scss/at-if- + at-else-closing-brace-space-after — missing space after } in the chain
+.O {
+    @if true { color: red; }@else if false { color: green; }@else { color: blue; }
+}
+
+// scss/at-else-closing-brace-newline-after — code after the final @else's }
+.R {
+    @if true {
+        color: red;
+    } @else {
+        color: blue;
+    } width: 1px;
+}
+
+// at-rule-empty-line-before — no blank line before @media
+.P {
+    color: red;
+}
+@media (min-width: 200px) {
+    .Q {
+        color: red;
+    }
+}
+
+// plugin/selector-bem-pattern — .ABC-Invalid breaks the component pattern.
+// Keep last: the component scope below applies to every selector after it.
+/** @define ABC */
+.ABC {
+    color: red;
+}
+
+.ABC-Invalid {
+    color: red;
+}
