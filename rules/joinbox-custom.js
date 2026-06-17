@@ -1,5 +1,3 @@
-const propertiesOrder = require('./properties-order');
-
 module.exports = {
     rules: {
         'plugin/selector-bem-pattern': {
@@ -54,7 +52,6 @@ module.exports = {
         ],
         'color-no-invalid-hex': true,
         '@stylistic/color-hex-case': 'lower',
-        'order/properties-order': propertiesOrder,
         'no-descending-specificity': null,
     },
 };

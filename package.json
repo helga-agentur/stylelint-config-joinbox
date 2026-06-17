@@ -19,7 +19,6 @@
     "postcss-scss": "^4.0.9",
     "stylelint": "^17.13.0",
     "stylelint-config-recommended-scss": "^17.0.1",
-    "stylelint-order": "^8.1.1",
     "stylelint-selector-bem-pattern": "^5.0.0"
   },
   "repository": {
