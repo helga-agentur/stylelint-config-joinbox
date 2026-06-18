@@ -5,7 +5,7 @@ Linter configuration for SCSS project based on airbnb rules (with some custom ch
 
 Since the module is not published yet pull it form github.
 
-`npm i -D @helga-agency/stylelint-config-joinbox`
+`npm i -D @helga-agency/stylelint-config`
 
 ## Usage
 
@@ -13,7 +13,7 @@ Add the following line to the `.stylelintrc` file in the project root folder.
 
 ```
 {
-  "extends": "@helga-agency/stylelint-config-joinbox"
+  "extends": "@helga-agency/stylelint-config"
 }
 ```
 
